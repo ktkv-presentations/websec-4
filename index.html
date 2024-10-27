@@ -23,189 +23,1280 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
+                    <h1>Облачный хостинг</h1>
+                    <img
+                        class="r-stretch"
+                        src="https://ktkv-presentations.github.io/websec-4"
+                        data-type="qrcode" />
                 </section>
                 <section>
                     <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
+                        <h1>Облачный хостинг</h1>
+                        <div class="grid grid-cols-2 gap-12">
+                            <p>
+                                технология, которая позволяет хранить,
+                                обрабатывать и передавать данные через интернет
+                                на серверах, расположенных в дата-центрах
+                                облачных провайдеров
+                            </p>
+                            <img
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.readerscave.com%2F2017%2F03%2Fcloud-computing-jokes-04.jpeg&f=1&nofb=1&ipt=56351984eb7f49bc9d1ce7e4f7ace25d3601fdfa62b86c613d872fa14e78be0a&ipo=images"
+                                alt=""
+                                class="r-stretch" />
                         </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
                     </section>
                     <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
+                        <h1>Типы облачного хостинга</h1>
+                        <h3>Shared Hosting</h3>
+                        <h4>Общий хостинг</h4>
                         <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
+                            несколько сайтов размещены на одном сервере, и все
+                            они делят между собой его ресурсы
+                        </p>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-g">
+                                <h5>Преимущества</h5>
+                                <ul>
+                                    <li>Низкая стоимость</li>
+                                    <li>Простота настройки</li>
+                                </ul>
+                            </div>
+                            <div class="border-r">
+                                <h5>Недостатки</h5>
+                                <ul>
+                                    <li>Ограниченные ресурсы</li>
+                                    <li>Слабая изоляция</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h3>Shared Hosting</h3>
+                        <div class="mermaid">
+                            <pre>
+graph TD;
+    id2[Сайт 1] --> id1[ Web server 1 ];
+    id3[Сайт 2] --> id1[ Web server 1 ];
+    id4[Сайт 3] --> id1[ Web server 1 ];
+    id5[Сайт n] --> id1[ Web server 1 ];
+    id7[Сайт 1] --> id6[ Web server 2 ];
+    id8[Сайт 2] --> id6[ Web server 2 ];
+    id9[Сайт n] --> id6[ Web server 2 ];
+    id11[Сайт 1] --> id10[ Web server 3 ];
+    id12[Сайт 2] --> id10[ Web server 3 ];
+    id13[Сайт n] --> id10[ Web server 3 ];
+    id1 --> id14[Hosting machine];
+    id6 --> id14[Hosting machine];
+    id10 --> id14[Hosting machine];
+                            </pre>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Типы облачного хостинга</h1>
+                        <h3>Virtual Private Server (VPS)</h3>
+                        <h4>Виртуальный частный сервер</h4>
+                        <p>
+                            виртуализированное окружение, где ресурсы сервера
+                            распределяются между несколькими виртуальными
+                            машинами, каждая из которых работает как отдельный
+                            сервер с выделенными ресурсами
+                        </p>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-g">
+                                <h5>Преимущества</h5>
+                                <ul>
+                                    <li>Гибкость и возможность настройки</li>
+                                    <li>Изоляция</li>
+                                </ul>
+                            </div>
+                            <div class="border-r">
+                                <h5>Недостатки</h5>
+                                <ul>
+                                    <li>
+                                        Требуются базовые технические навыки для
+                                        управления сервером
+                                    </li>
+                                    <li>
+                                        Более высокая стоимость по сравнению с
+                                        общим хостингом
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h3>Virtual Private Server (VPS)</h3>
+                        <div class="mermaid">
+                            <pre>
+graph TD;
+    subgraph Host 1
+    id1[RAM] --> id5
+    id2[CPU] --> id5
+    id3[HDD] --> id5
+    id4[NET] --> id5
+
+    id5[VM Hypervisor]
+    end
+
+    subgraph id333[Virtualized]
+    id5 --> id6[OS 1]
+    id5 --> id7[OS 2]
+    id5 --> id8[OS 3]
+    id5 --> id9[OS n]
+    end
+
+    subgraph Host 2
+    id11[RAM] --> id15
+    id12[CPU] --> id15
+    id13[HDD] --> id15
+    id14[NET] --> id15
+
+    id15[VM Hypervisor]
+    end
+
+    subgraph id222[Virtualized]
+    id15 --> id16[OS 1]
+    id15 --> id17[OS 2]
+    id15 --> id18[OS 3]
+    id15 --> id19[OS n]
+    end
+                            </pre>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="mermaid">
+                                <pre>
+graph TD;
+    subgraph Host 1
+    id1[RAM] --> id5
+    id2[CPU] --> id5
+    id3[HDD] --> id5
+    id4[NET] --> id5
+
+    id5[VM Hypervisor]
+    end
+
+    subgraph id333[Virtualization]
+    id5 --> id6[OS]
+    id6 --> id444
+        subgraph id444[Docker]
+            id7[VM Hypervisor] --> id555
+            subgraph id555[All-In-One-App]
+                id8[VM Hypervisor] --> id9 & id10
+                id9[App DB]
+                id10[HTTP Server]
+            end
+        end
+    end
+                            </pre
+                                >
+                            </div>
+                            <img
+                                class="r-stretch"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.memesmonkey.com%2Fimages%2Fmemesmonkey%2F59%2F5996625a30336d34b49960bf612da4fc.jpeg&f=1&nofb=1&ipt=3e971ebd0450169936c1d665c8eb117aff426f70a388feca83fb3e718a4c00ab&ipo=images"
+                                alt="" />
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Типы облачного хостинга</h1>
+                        <h3>Virtual Dedicated Server (VDS)</h3>
+                        <h4>Виртуальный выделенный сервер</h4>
+                        <p>
+                            виртуальная среда, которая работает так, как будто
+                            это физический выделенный сервер
+                        </p>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-g">
+                                <h5>Преимущества</h5>
+                                <ul>
+                                    <li>Высокая производительность</li>
+                                    <li>Полный контроль над сервером</li>
+                                </ul>
+                            </div>
+                            <div class="border-r">
+                                <h5>Недостатки</h5>
+                                <ul>
+                                    <li>Высокая стоимость</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h3>Virtual Dedicated Server (VDS)</h3>
+                        <div class="mermaid">
+                            <pre>
+graph TD;
+    subgraph host
+    id1[RAM]
+    id2[CPU]
+    end
+
+    subgraph virtualized
+    id1 ---|1/4| id4[OS 1]
+    id1 ---|1/4| id5[OS 2]
+    id1 ---|1/4| id6[OS 3]
+    id1 ---|1/4| id7[OS 4]
+    id2 -.-|1/4| id4[OS 1]
+    id2 -.-|1/4| id5[OS 2]
+    id2 -.-|1/4| id6[OS 3]
+    id2 -.-|1/4| id7[OS 4]
+    end
+                            </pre>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Типы облачного хостинга</h1>
+                        <h3>Выделенные серверы</h3>
+                        <h4>Dedicated Server</h4>
+                        <p>
+                            выделенный сервер предоставляет клиенту физический
+                            сервер, полностью изолированный и доступный для
+                            единственного пользователя
+                        </p>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-g">
+                                <h5>Преимущества</h5>
+                                <ul>
+                                    <li>
+                                        Максимальная производительность и доступ
+                                        к ресурсам сервера
+                                    </li>
+                                    <li>
+                                        Высокий уровень изоляции и безопасности,
+                                        так как клиент не делит сервер с другими
+                                        пользователями
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border-r">
+                                <h5>Недостатки</h5>
+                                <ul>
+                                    <li>Очень высокая стоимость</li>
+                                    <li>
+                                        Требуются навыки администрирования для
+                                        управления сервером
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Cloud Computing</h1>
+                        <p>
+                            модель, при которой вычислительные ресурсы (серверы,
+                            хранилище, сети, программное обеспечение)
+                            предоставляются пользователям через интернет, и они
+                            оплачивают их по мере использования
+                        </p>
+                        <hr />
+                        <h4>PAYG (Pay-as-you-go)</h4>
+                        <p>
+                            оплачиваются только те ресурсы, которые они
+                            фактически используют, что позволяет избежать затрат
+                            на простой оборудования
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h2>
+                            Основные модели обслуживания в облачных вычислениях
+                        </h2>
+                        <h3>Infrastructure as a Service (IaaS)</h3>
+                        <p>
+                            Пользователю предоставляются виртуальные машины,
+                            сети, хранилище, на основе которых он может
+                            создавать свою собственную ИТ-инфраструктуру
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h2>
+                            Основные модели обслуживания в облачных вычислениях
+                        </h2>
+                        <h3>Platform as a Service (PaaS)</h3>
+                        <p>
+                            Платформы, на которых пользователи могут
+                            разрабатывать, тестировать и развертывать свои
+                            приложения
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h2>
+                            Основные модели обслуживания в облачных вычислениях
+                        </h2>
+                        <h3>Software as a Service (SaaS)</h3>
+                        <p>
+                            Облачные провайдеры предлагают готовое программное
+                            обеспечение через интернет
+                        </p>
+                    </section>
+                    <section>
+                        <table style="font-size: 1.4rem">
+                            <tr style="color: rgb(122, 162, 247)">
+                                <th>Параметр</th>
+                                <th>Cloud Computing</th>
+                                <th>Покупка физических серверов</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Затраты</strong></td>
+                                <td>Оплата по мере использования</td>
+                                <td>
+                                    Значительные начальные затраты на покупку
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Масштабируемость</strong></td>
+                                <td>Быстрая и гибкая</td>
+                                <td>Ограничена имеющимся оборудованием</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Время развертывания</strong></td>
+                                <td>Быстрое (минуты или часы)</td>
+                                <td>Длительное (дни или недели)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Обслуживание и поддержка</strong>
+                                </td>
+                                <td>Обеспечивается поставщиком</td>
+                                <td>
+                                    Включает затраты на ИТ-персонал и поддержку
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Обновления оборудования</strong>
+                                </td>
+                                <td>Автоматическое обновление поставщиком</td>
+                                <td>Регулярные капитальные затраты</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Доступность</strong></td>
+                                <td>В большинстве случаев высокая, с SLA</td>
+                                <td>Требует собственных резервных решений</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Безопасность</strong></td>
+                                <td>Ответственность делится с провайдером</td>
+                                <td>Полная ответственность на компании</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <h1>Облако не является решением всех проблем</h1>
+                        <img
+                            src="https://secureblitz.com/wp-content/uploads/2022/12/Cloud-Computer.jpg"
+                            alt=""
+                            class="r-stretch" />
+                    </section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Требования к выбору хостинга</h1>
+                        <ul>
+                            <li>Требования приложения</li>
+                            <li>Бюджет</li>
+                            <li>Требования к безопасности</li>
+                            <li>Масштабируемость</li>
+                            <li>Необходимость технического обслуживания</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Выбор конфигурации сервера</h1>
+                        <table style="font-size: 1.2rem">
+                            <tr>
+                                <th>Тип хостинга</th>
+                                <th>Характеристики</th>
+                                <th>Примерная стоимость (руб.)</th>
+                            </tr>
+                            <tr>
+                                <td>Виртуальный хостинг</td>
+                                <td>
+                                    <ul>
+                                        <li>1-10 сайтов</li>
+                                        <li>10-50 ГБ дискового пространства</li>
+                                        <li>Поддержка PHP, MySQL</li>
+                                        <li>Базовая защита</li>
+                                    </ul>
+                                </td>
+                                <td>от 150 до 500 в месяц</td>
+                            </tr>
+                            <tr>
+                                <td>VPS (Виртуальный Приватный Сервер)</td>
+                                <td>
+                                    <ul>
+                                        <li>1-5 IP адресов</li>
+                                        <li>1-16 ядер CPU</li>
+                                        <li>2-32 ГБ ОЗУ</li>
+                                        <li>
+                                            SSD или HDD дисковое пространство
+                                            (от 20 ГБ)
+                                        </li>
+                                        <li>Полный доступ к серверу (root)</li>
+                                    </ul>
+                                </td>
+                                <td>от 500 до 3000 в месяц</td>
+                            </tr>
+                            <tr>
+                                <td>VDS (Виртуальный Дедикейтед Сервер)</td>
+                                <td>
+                                    <ul>
+                                        <li>1-10 IP адресов</li>
+                                        <li>2-16 ядер CPU</li>
+                                        <li>4-64 ГБ ОЗУ</li>
+                                        <li>
+                                            SSD дисковое пространство (от 50 ГБ)
+                                        </li>
+                                        <li>Полный доступ к серверу (root)</li>
+                                    </ul>
+                                </td>
+                                <td>от 2000 до 8000 в месяц</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <h1>Выбор конфигурации сервера</h1>
+                        <table style="font-size: 1.2rem">
+                            <tr>
+                                <th>Тип хостинга</th>
+                                <th>Характеристики</th>
+                                <th>Примерная стоимость (руб.)</th>
+                            </tr>
+                            <tr>
+                                <td>Выделенный сервер</td>
+                                <td>
+                                    <ul>
+                                        <li>1-10 IP адресов</li>
+                                        <li>4-32 ядер CPU</li>
+                                        <li>8-128 ГБ ОЗУ</li>
+                                        <li>
+                                            SSD или HDD дисковое пространство
+                                            (от 500 ГБ)
+                                        </li>
+                                        <li>Полный доступ к серверу (root)</li>
+                                    </ul>
+                                </td>
+                                <td>от 5000 до 20000 в месяц</td>
+                            </tr>
+                            <tr>
+                                <td>Облачный хостинг</td>
+                                <td>
+                                    <ul>
+                                        <li>Гибкая настройка ресурсов</li>
+                                        <li>Оплата по факту использования</li>
+                                        <li>Автоматическое масштабирование</li>
+                                        <li>Резервное копирование данных</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    от 300 до 15000 в месяц (в зависимости от
+                                    использования)
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <h1>Выбор региона и зоны доступности</h1>
+                        <h4>Факторы, влияющие на выбор региона</h4>
+                        <ul>
+                            <li>Местоположение пользователей</li>
+                            <li>Законы и нормативы (GDPR)</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Закупка облачных сервисов</h1>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-b">
+                                <h4>Aeza</h4>
+                                <div>Услуги</div>
+                                <ul>
+                                    <li>Виртуальный хостинг</li>
+                                    <li>VPS</li>
+                                    <li>VDS</li>
+                                </ul>
+                                <p>
+                                    Новый сервис хостинга, предлагают основные
+                                    регионы Европы
+                                </p>
+                                <div class="border-r">
+                                    IP-адреса в регионах Европы не попадают в
+                                    пулл, связанный с Россией
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <h4>Timeweb</h4>
+                                <div>Услуги</div>
+                                <ul>
+                                    <li>Виртуальный хостинг</li>
+                                    <li>VPS</li>
+                                    <li>VDS</li>
+                                    <li>Выделенные серверы</li>
+                                    <li>Облачный хостинг</li>
+                                </ul>
+                                <p>
+                                    Один из крупнейших провайдеров в России,
+                                    который предлагает доступные тарифы и
+                                    стабильную работу своих серверов
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Закупка облачных сервисов</h1>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div class="border-b">
+                                <h4>REG.RU</h4>
+                                <div>Услуги</div>
+                                <ul>
+                                    <li>Виртуальный хостинг</li>
+                                    <li>VPS</li>
+                                    <li>VDS</li>
+                                    <li>Выделенные серверы</li>
+                                    <li>Облачный хостинг</li>
+                                </ul>
+                                <p>
+                                    Давно на рынке, высокий уровень аптайма
+                                    серверов
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>VDSina</h4>
+                                <div>Услуги</div>
+                                <ul>
+                                    <li>VPS</li>
+                                    <li>VDS</li>
+                                    <li>Выделенные серверы</li>
+                                </ul>
+                                <p>Дешевый, достаточно нестабильный</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Харденинг</h1>
+                        <p>
+                            процесс повышения безопасности систем, приложений и
+                            сетей путем устранения уязвимостей и минимизации
+                            потенциальных точек атаки
                         </p>
                     </section>
                 </section>
                 <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
-                        <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
+                    <section>
+                        <h1>Создание обычного пользователя</h1>
+                        <div class="border-r">
+                            Все действия в данном блоке выполняются под
+                            <code>root</code>
+                        </div>
+                        <h4>Создайте пользователя</h4>
+                        <pre><code data-trim class="shell">
+sudo useradd -m имяпользователя
+                        </code></pre>
+                        <h4>Установите ему пароль</h4>
+                        <pre><code data-trim class="shell">
+sudo passwd имяпользователя
+                        </code></pre>
+                        <h4>Дайте ему доступ к повышению привелегий</h4>
+                        <pre><code data-trim class="shell">
+sudo usermod -aG wheel имяпользователя
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Где
+                            <code>-a</code>
+                            - добавить группу (без него вы сотрете все группы и
+                            установите только одну),
+                            <code>-G</code>
+                            - указывает группы,
+                            <code>wheel</code>
+                            - название группы, у которой есть доступ к эскалации
+                            привелегий
+                        </i>
+                    </section>
+                    <section>
+                        <h4>
+                            Разрешите группе
+                            <code>wheel</code>
+                            доступ к
+                            <code>sudo</code>
+                        </h4>
+                        <pre><code data-trim class="shell">
+visudo
+                        </code></pre>
+                        <h4>Раскомментируйте одну из строчек</h4>
+                        <pre><code data-trim class="shell">
+# %wheel ALL=(ALL:ALL) ALL
+# %wheel ALL=(ALL:ALL) NOPASSWD: ALL
+                        </code></pre>
+                        <div class="border-r">
+                            Первая строчка будет запрашивать пароль, когда вы
+                            будете повышать привелегии, а вторая строчка будет
+                            автоматически испольнять все команды sudo без пароля
+                        </div>
+                        <i style="font-style: italic">
+                            Если машина ваша или в полной безопасности, можете
+                            использовать
+                            <code>sudo</code>
+                            без пароля, если это сервер, у которого есть прямый
+                            доступ как в интернет, так и из интернета - лучше по
+                            паролю эскалировать привелегии
+                        </i>
+                    </section>
+                    <section>
+                        <h4>Зайдите под пользователем</h4>
+                        <pre><code data-trim class="shell">
+su имяпользователя
+                        </code></pre>
+                        <h4>
+                            Проверьте, что у пользователя появились
+                            <code>sudo</code>
+                            права
+                        </h4>
+                        <pre><code data-trim class="shell">
+sudo -V
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Если в терминале пусто - у вас есть права, если
+                            ошибка, то проверяйте группу и файл
+                            <code>/etc/sudoers</code>
+                        </i>
+                    </section>
                 </section>
                 <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
+                    <section>
+                        <h1>Обновите пакеты сервера</h1>
+                        <pre><code data-trim class="shell">
+apt update && sudo apt upgrade
+                        </code></pre>
+                        <div class="border-b">
+                            Обратите внимание, что пакетный менеджер может
+                            отличаться в зависимости от вашего дистрибутива.
+                            <code>apt</code>
+                            является стандартом в Debian и Ubuntu
+                        </div>
+                    </section>
+                    <section>
+                        <h1>SSH</h1>
+                        <h4>Secure Shell</h4>
+                        <p>
+                            протокол для удаленного доступа к серверу,
+                            позволяющий безопасно управлять сервером с
+                            использованием командной строки. Под капотом у SSH
+                            используется протокол TCP
+                        </p>
+                        <div class="border-r">
+                            Все действия дальше подразумевают, что вы находитесь
+                            под своим пользователем, а не root
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Защита SSH</h1>
+                        <div class="border-r">
+                            По умолчанию SSH-соединение используется на порту
+                            22, на котором также доступен вход по
+                            <code>root</code>
+                            пользователю
+                        </div>
+                        <br />
+                        <h4>1. Изменить настройки SSH сервера</h4>
+                        <pre><code data-trim class="shell">
+sudo nano /etc/ssh/sshd_config
+                        </code></pre>
+                        <br />
+                        <h4>
+                            2. Раскомментировать строчку
+                            <code>#Port 22</code>
+                            и изменить значение порта
+                        </h4>
+                        <pre><code data-trim class="shell">
+Port 32139
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Порт "желательно" выставить пятизначный, но есть
+                            исключения
+                        </i>
+                    </section>
+                    <section>
+                        <h1>Запрет подключения к SSH по паролю</h1>
+                        <h4>Запрет входа по паролю</h4>
+                        <pre><code data-trim class="shell">
+PasswordAuthentication no
+                        </code></pre>
+                        <h4>Разрешить вход по SSH ключу</h4>
+                        <pre><code data-trim class="shell">
+PubkeyAuthentication yes
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Эти параметры уже есть в файле
+                            <code>/etc/ssh/sshd_config</code>
+                            , надо только раскомментировать их и/или заменить их
+                            значения
+                        </i>
+                    </section>
+                    <section>
+                        <h1>Добавление SSH ключа на сервер</h1>
+                        <div class="border-b">
+                            <h4>1. Сгенерируйте ключ</h4>
+                            <pre><code data-trim class="shell">
+ssh-keygen -t ed25519
+                        </code></pre>
+                            <h4>2. Скопируйте публичный ключ</h4>
+                            <pre><code data-trim class="shell">
+cat ~/.ssh/id_ed25519.pub
+                        </code></pre>
+                            <i style="font-style: italic">
+                                Эти действия выполняются на локальной машине
+                            </i>
+                        </div>
+                        <br />
+                        <h4>3. Добавьте ключ на сервер</h4>
+                        <pre><code data-trim class="shell">
+echo "ssh-ed25519 XВАШКЛЮЧX вашпользователь@вашхостнейм" >> ~/.ssh/authorized_keys
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Обратите внимание, что вы должны быть под
+                            пользователем, а не root на данном моменте. Также
+                            можно добавить вручную с помощью
+                            <code>nano</code>
+                        </i>
+                    </section>
+                    <section>
+                        <h4>4. Перезагрузите SSH сервер</h4>
+                        <pre><code data-trim class="shell">
+sudo systemctl restart sshd
+                        </code></pre>
+                        <br />
+                        <div class="border-r">
+                            <h4>5. Проверьте, что авторизация работает</h4>
+                            <i style="font-style: italic">
+                                Попытайтесь подключиться к серверу через
+                                пользователя и новый порт
+                            </i>
+                        </div>
+                        <br />
+                        <h4>
+                            6. Запретите входить на сервер под
+                            <code>root</code>
+                            *
+                        </h4>
+                        <i style="font-style: italic">
+                            Раскомментируйте строчку в
+                            <code>/etc/ssh/sshd_config</code>
+                        </i>
+                        <pre><code data-trim class="shell">
+PermitRootLogin no
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Перезагрузите SSH сервер еще раз
+                        </i>
+                    </section>
                 </section>
                 <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
-                    <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
+                    <section>
+                        <h1>Firewall</h1>
+                        <p>
+                            средство контроля доступа к сетевым соединениям,
+                            которое фильтрует трафик, проходящий через сервер, и
+                            блокирует нежелательные подключения
+                        </p>
+                        <div class="border-b">
+                            В
+                            <code>Ubuntu</code>
+                            и
+                            <code>Debian</code>
+                            обычно предустановлен
+                            <code>UFW</code>
+                            . Проверить можно с помощью команды
+                            <code>ufw version</code>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>1. Добавьте все необходимые порты</h4>
+                        <pre><code data-trim class="shell">
+sudo ufw allow 32139
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Где
+                            <code>allow</code>
+                            значит разрешить подключения с порта
+                            <code>32139</code>
+                        </i>
+                        <br />
+                        <br />
+                        <div class="border-r">
+                            В частности не забудьте про SSH порт, иначе
+                            потеряете доступ к серверу через SSH
+                        </div>
+                        <br />
+                        <h4>2. Запустите Firewall</h4>
+                        <pre><code data-trim class="shell">
+sudo ufw enable
+                        </code></pre>
+                        <h4>3. Проверьте, что он запустился</h4>
+                        <pre><code data-trim class="shell">
+sudo ufw status
+                        </code></pre>
+                        <i style="font-style: italic">
+                            Вы должны увидеть список портов
+                        </i>
+                    </section>
+                    <section>
+                        <div class="border-r">
+                            <h4>
+                                4. Попробуйте подключиться еще раз В ДРУГОМ ОКНЕ
+                            </h4>
+                            <i style="font-style: italic">
+                                Оставьте текущую сессию активной на случай, если
+                                не получится подключиться с включенным
+                                фаерволлом
+                            </i>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Docker</h1>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div>
+                                <p>
+                                    открытая платформа для разработки, доставки
+                                    и запуска приложений в контейнерах
+                                </p>
+                                <h4>Альтернативы Docker</h4>
+                                <ul>
+                                    <li>Podman</li>
+                                    <li>Containerd</li>
+                                    <li>LXC/LXD</li>
+                                    <li>Kubernetes</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <img
+                                    src="https://habrastorage.org/r/w780/files/b5a/800/403/b5a800403b774406a4529c1d7addd037.jpg"
+                                    alt="" />
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.ifunny.co%2Fimages%2F6dc575a8f43ab7b9cce65aa236f1a244709c80a467415ca844a64ab37bb40e31_1.jpg&f=1&nofb=1&ipt=49ecf9bd358e6f9e7bd62ff7bdc5fa06455465d4f58cf005c373f16903213fc3&ipo=images"
+                            class="r-stretch"
+                            alt="" />
+                    </section>
+                    <section>
+                        <h1>Преимущества Docker</h1>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="border-b">
+                                <h4>
+                                    Контейнеры могут работать в любых средах,
+                                    где установлен Docker
+                                </h4>
+                                <i style="font-style: italic">
+                                    Однако стоит обращать внимание, что
+                                    некоторые сервисы зависят от архитектуры x86
+                                </i>
+                            </div>
+                            <div class="border-b">
+                                <h4>Изоляция</h4>
+                                <i style="font-style: italic">
+                                    каждый контейнер работает в своей среде и
+                                    связываются только с помощью внутренний сети
+                                </i>
+                            </div>
+                            <div class="border-b">
+                                <h4>
+                                    Позволяет приложениям быть как
+                                    <code>stateless</code>
+                                    , так и
+                                    <code>stateful</code>
+                                </h4>
+                                <i style="font-style: italic">
+                                    Данные приложения могут храниться на диске
+                                    для того, чтобы можно было делать
+                                    бэкапы/делиться ими с другими контейнерами
+                                </i>
+                            </div>
+                            <div class="border-b">
+                                <h4>Масштабируемость</h4>
+                                <i style="font-style: italic">
+                                    Docker легко интегрируется с оркестраторами,
+                                    такими как Kubernetes
+                                </i>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Контейнеры (containers)</h4>
+                        <p>
+                            изолированные среды, в которых приложения могут
+                            выполняться независимо от хостовой операционной
+                            системы
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Docker-образы (images)</h4>
+                        <p>
+                            неизменяемый шаблон, который содержит все файлы,
+                            необходимые для создания контейнера
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Dockerfile</h4>
+                        <p>
+                            текстовый файл, содержащий набор инструкций для
+                            создания образа Docker
+                        </p>
+                        <pre><code data-trim class="dockerfile">
+FROM python:3.9
+
+WORKDIR /app
+
+COPY requirements.txt /app
+
+RUN pip install -r requirements.txt
+
+COPY . /app
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
+                        </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Docker Hub</h4>
+                        <p>
+                            облачное хранилище, где пользователи могут хранить и
+                            обмениваться образами
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Docker compose</h4>
+                        <p>
+                            инструмент для автоматизации развертывания
+                            многосервисных приложений
+                        </p>
+                        <pre><code data-trim class="yaml">
+services:
+  web:
+    image: myflaskapp
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+                        </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Разделы (volumes)</h4>
+                        <p>
+                            механизмы хранения данных, которые используются для
+                            сохранения состояния данных контейнера за его
+                            пределами
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные концепции Docker</h1>
+                        <h4>Сети (networks)</h4>
+                        <p>
+                            механизм, который позволяет контейнерам общаться
+                            друг с другом и с внешним миром
+                        </p>
+                        <hr />
+                        <h4>Виды сетей</h4>
+                        <div class="grid grid-cols-2 gap-12">
+                            <div>
+                                <h4>Bridge</h4>
+                                <p>
+                                    Контейнеры, подключенные к этой сети, могут
+                                    общаться друг с другом, но не могут получать
+                                    доступ к внешним ресурсам, если не настроен
+                                    соответствующий проброс портов
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Host</h4>
+                                <p>
+                                    контейнер использует сетевой стек хоста, что
+                                    позволяет ему обмениваться данными с другими
+                                    службами на хосте
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>
+                            <a href="https://docs.docker.com/engine/install/">
+                                Установка докера
+                            </a>
+                        </h1>
+                        <p>
+                            Старайтесь использовать установку из системного
+                            репозитория
+                        </p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Основные команды Docker</h1>
+                        <h4>Запуск контейнера</h4>
+                        <code class="shell">
+                            docker run -d -p 5000:5000 -v my_data:/data
+                            названиеконтейнера
                         </code>
-                        tag!
-                    </div>
-                    <img
-                        class="r-stretch"
-                        src="https://goqr.me/"
-                        data-type="qrcode" />
+                        <br />
+                        <div>
+                            <p>
+                                <code>-d</code>
+                                - detached, то есть после запуска контейнера вы
+                                будете отсоединены от его логов и он будет
+                                запущен на заднем фоне
+                                <br />
+                                <i style="font-style: italic">
+                                    при запуске без
+                                    <code>-d</code>
+                                    у вас в терминале будут логи контейнера и
+                                    когда вы нажмете CTRL+C у вас остановится
+                                    контейнер
+                                </i>
+                            </p>
+                            <p>
+                                <code>-v</code>
+                                - volumes, создаём контейнер и монтируем my_data
+                                (на стороне хоста) в директорию /data (внутри
+                                контейнера)
+                            </p>
+                            <p>
+                                <code>-p</code>
+                                - port, который "прокидывается" из контейнера в
+                                формате портКонтейнера:портХоста
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Основные команды Docker</h1>
+                        <h4>Список запущенных контейнеров</h4>
+                        <code class="shell">docker ps</code>
+                        <pre><code data-trim data-line-numbers class="shell">
+❯ docker ps
+CONTAINER ID   IMAGE                                  COMMAND                  CREATED        STATUS                PORTS                                                                                                      NAMES
+b35e08a18bab   nextcloud:apache                       "/entrypoint.sh apac…"   5 days ago     Up 4 days             80/tcp                                                                                                     nextcloud
+dfea36780fc7   postgres:16-alpine                     "docker-entrypoint.s…"   2 weeks ago    Up 4 days             5432/tcp                                                                                                   linkwarden-db
+d8dfb774e656   linuxserver/swag:latest                "/init"                  2 weeks ago    Up 4 days             0.0.0.0:80-81->80-81/tcp, :::80-81->80-81/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp                       swag
+255f3ff42bfc   jellyfin/jellyfin:latest               "/jellyfin/jellyfin"     2 months ago   Up 4 days (healthy)   0.0.0.0:8096->8096/tcp, :::8096->8096/tcp                                                                  jellyfin
+                        </code></pre>
+                        <hr />
+                        <h4>Остановка контейнера</h4>
+                        <code class="shell">docker stop айдиКонтейнера</code>
+                    </section>
+                    <section>
+                        <h1>Основные команды Docker</h1>
+                        <h4>Удаление контейнера</h4>
+                        <code class="shell">
+                            docker rm &lt;container_id&gt;
+                        </code>
+                        <hr />
+                        <h4>Удаление образа</h4>
+                        <code class="shell">docker rmi myapp</code>
+                    </section>
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section>
+                        <h1>Постоянные сервисы</h1>
+                        <div class="border-b">
+                            Если вы запускаете контейнеры как сервисы, которыми
+                            вы будете использовать долгое время, то используйте
+                            <code>docker compose</code>
+                        </div>
+                        <p>
+                            Docker Compose позволяет описать все сервисы, их
+                            зависимости и настройки в одном YAML-файле
+                        </p>
+                    </section>
+                    <section>
+                        <h1>
+                            <a href="https://docs.docker.com/compose/install/">
+                                Установка docker compose
+                            </a>
+                        </h1>
+                        <div class="border-r">
+                            <code>docker compose</code>
+                            и
+                            <code>docker-compose</code>
+                            - одно и то же, но Docker отказались от старого
+                            синтаксиса
+                            <code>docker-compose</code>
+                            и добавили его как подпрограмму
+                        </div>
+                        <i style="font-style: italic">
+                            Наличие Docker Compose при установке Docker зависит
+                            от вашей ОС, версии Docker и стадии луны, поэтому
+                            перепроверяйте с помощью команды
+                            <code>docker compose version</code>
+                        </i>
+                    </section>
+                    <section>
+                        <h4>
+                            Строение
+                            <code>docker-compose.yaml</code>
+                        </h4>
+                        <pre
+                            class="r-stretch"><code data-trim data-line-numbers="|1|2,20|3,21|4,22|9-10,24-25|16-17,33,34|37-43|11-15,26-30|7-8,31-32|18,35|5-6|23|" class="yaml">
+services:
+    nextcloud:
+        image: nextcloud:apache
+        container_name: nextcloud
+        links:
+            - nextcloud-db
+        volumes:
+            - ./nextcloud:/var/www/html
+        # ports:
+        #     - 3838:80
+        environment:
+            - MYSQL_PASSWORD=${NEXTCLOUDDB_PASSWORD}
+            - MYSQL_DATABASE=nextcloud
+            - MYSQL_USER=nextcloud
+            - MYSQL_HOST=nextcloud-db
+        networks:
+            - homeserver
+        restart: always
+
+    nextcloud-db:
+        image: mariadb:latest
+        container_name: nextcloud-db
+        command: --transaction-isolation=READ-COMMITTED --log-bin=binlog --binlog-format=ROW
+        # ports:
+        #     - 3306:3306
+        environment:
+            - MARIADB_USER=nextcloud
+            - MARIADB_PASSWORD=${NEXTCLOUDDB_PASSWORD}
+            - MARIADB_DATABASE=nextcloud
+            - MARIADB_ROOT_PASSWORD=${NEXTCLOUDDB_ROOT_PASSWORD}
+        volumes:
+            - ./nextcloud-db:/var/lib/mysql
+        networks:
+            - homeserver
+        restart: always
+
+networks:
+    homeserver:
+        external: true
+        ipam:
+            config:
+                - subnet: 172.18.0.0/16
+                  gateway: 172.18.0.1
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Основные команды docker compose</h1>
+                        <h4>Запуск сервисов в фоновом режиме</h4>
+                        <code class="shell">docker compose up -d</code>
+                        <hr />
+                        <h4>Запуск сервисов в фоновом режиме</h4>
+                        <code class="shell">docker compose down</code>
+                        <hr />
+                        <h4>Просмотр состояния контейнеров</h4>
+                        <code class="shell">docker compose ps</code>
+                        <hr />
+                        <h4>Просмотр логов</h4>
+                        <code class="shell">docker-compose logs</code>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h4>Интересное</h4>
+                        <p>
+                            <a
+                                href="https://github.com/awesome-selfhosted/awesome-selfhosted">
+                                Список Docker контейнеров
+                            </a>
+                            - курированный список, где можно найти много чего
+                            интересного
+                        </p>
+                        <p>
+                            <a href="https://www.portainer.io/">Portainer</a>
+                            - WEB GUI для докера
+                        </p>
+                        <p>
+                            <a
+                                href="https://github.com/jesseduffield/lazydocker">
+                                LazyDocker
+                            </a>
+                            - TUI для докера
+                        </p>
+                        <p>
+                            <a
+                                href="https://github.com/ktkv419/homeserver-docker">
+                                Инфраструктура моего сервера
+                            </a>
+                            - для вдохновления
+                        </p>
+                        <hr />
+                        <h4>Как еще улучшить безопасность сервера</h4>
+                        <p>
+                            <a href="https://github.com/fail2ban/fail2ban">
+                                Fail2Ban
+                            </a>
+                            - отсеивать тех, кто пытается брутфорсить ваш сервер
+                        </p>
+                        <p>
+                            <a href="https://www.authelia.com/">Authelia</a>
+                            - SSO для всех ваших серверов
+                        </p>
+                        <p>
+                            <a
+                                href="https://github.com/awesome-selfhosted/awesome-selfhosted?tab=readme-ov-file#web-servers">
+                                Reverse proxy
+                            </a>
+                            - как избавиться от портов и поставить себе
+                            автоматические SSL сертификаты
+                        </p>
+                    </section>
+                    <section>
+                        <h1>Темы для сообщений</h1>
+                        <ul>
+                            <li>
+                                Технологии контейнеризации (Docker, Podman,
+                                Buildah,
+                                <a href="https://habr.com/ru/articles/811375/">
+                                    Коробки 💀
+                                </a>
+                                )
+                            </li>
+                            <li>Контейнеризация vs Виртуализация</li>
+                            <li>
+                                Оркестраторы контейнеров (Kubernetes vs Docker
+                                Swarm)
+                            </li>
+                            <li>
+                                Инструменты виртуализации (KVM vs QEMU или
+                                пингвины vs страусы)
+                            </li>
+                            <li>
+                                Системы для виртуализации и управления серверами
+                                (Proxmox, Unraid)
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </div>
         </div>
@@ -396,4 +1487,3 @@ var foo = {
         </script>
     </body>
 </html>
-
